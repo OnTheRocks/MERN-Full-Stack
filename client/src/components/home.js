@@ -7,14 +7,11 @@ class Home extends Component {
         super()
     }
 
-
-    render() {
-        
+    render() {        
         return (
             <Container>
                 <Row>
                 <Col size="md-6">
-
             <img src={logo} alt="logo" width="500px" height="500px"/>
                 </Col>            
                 <Col size="md-6">
@@ -39,20 +36,14 @@ class Home extends Component {
                     <li className="list-group-item"> Bryan Jerger - Backend Developer/MERN VR Launcher application</li>
                     <li className="list-group-item">Shannon Ervin - Backend Developer/Assistant VR Developer</li>
                     <li className="list-group-item"> Nate Huber - Assistant VR Developer/CSS</li>
-                    <li className="list-group-item">Jacob Rosenberg - Assistant VR Developer/CSS</li>
-                    
+                    <li className="list-group-item">Jacob Rosenberg - Assistant VR Developer/CSS</li>                    
                         </ul>
-
-                        
-                      
                      </div>
                      </div> 
                      </Col>
                      </Row>
                      </Container>
         )
-
     }
 }
-
 export default Home
